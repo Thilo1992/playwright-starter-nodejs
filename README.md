@@ -1,3 +1,8 @@
+Set proxy for cloning the repository:
+
+- git config --global http.https://github.com.proxy <proxyHost:proxyPort>
+- git config --global https.https://github.com.proxy <proxyHost:proxyPort>
+
 ## Prerequisites (before the workshop)
 
 1.  [Node.js](https://nodejs.org/) 18+
