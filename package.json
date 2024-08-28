@@ -2,11 +2,12 @@
   "name": "playwright-starter-nodejs",
   "version": "1.0.0",
   "description": "This repository contains a setup for Playwright",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "install-browser-dependencies": "npx playwright install",
+    "test": "npx playwright test",
+    "test-ui-mode": "npx playwright test --ui",
+    "start-codegenerator": "npx playwright codegen http://localhost:4200"
+  },
   "devDependencies": {
     "@playwright/test": "1.46.1",
     "@types/node": "22.5.0",
