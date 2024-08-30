@@ -25,6 +25,8 @@ Clone into `C:\dev`, otherwise npx is blocked by group policies
 
 - Edit the `example.spec.ts` or create a new `.spec.ts` file.
 - Find right **Locators** (https://playwright.dev/docs/locators)
+- Use the Playwright´s Test generator to see **Locator** suggestions (https://playwright.dev/docs/codegen) <br>
+  `npx playwright codegen <your_url>`
 - Call **Actions** on the Locators (https://playwright.dev/docs/input)
 - Do **Assertions** on the Locators (https://playwright.dev/docs/test-assertions)
 
