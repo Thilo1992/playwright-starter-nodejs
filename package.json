@@ -6,7 +6,9 @@
     "install-browser-dependencies": "npx playwright install",
     "test": "npx playwright test",
     "test-ui-mode": "npx playwright test --ui",
-    "start-codegenerator": "npx playwright codegen http://localhost:4200"
+    "test-with-trace": "npx playwright test --trace on",
+    "show-trace": "npx playwright show-trace results/trace.zip",
+    "start-codegenerator": "npx playwright codegen https://playwright.dev/"
   },
   "devDependencies": {
     "@playwright/test": "1.46.1",
