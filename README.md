@@ -5,6 +5,10 @@ Set proxy for cloning the repository:
 
 Clone into `C:\dev`, otherwise npx is blocked by group policies
 
+## Java Playwright starter project
+If you want use Java for writing Playwright tests, please checkout the following project: <br>
+[https://github.com/StartUiTesting/playwright-starter-java](https://github.com/StartUiTesting/playwright-starter-java)
+
 ## Prerequisites (before the workshop)
 
 1.  [Node.js](https://nodejs.org/) 18+
