@@ -21,6 +21,8 @@ If you want use Java for writing Playwright tests, please checkout the following
 
 ## Todos in the workshop
 
+### If you want to start with a project with a user authentication test example, checkout the `auth-example` branch.
+
 ### 1. Change configuration
 
 - Change the `baseURL` in the `playwright.config.ts` to the url of the application you want to test.
