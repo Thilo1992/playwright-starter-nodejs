@@ -28,8 +28,15 @@ export default defineConfig({
   /* Configure different projects. See https://playwright.dev/docs/test-projects. */
   projects: [
     {
-      name: 'Microsoft Edge',
-      use: { ...devices['Desktop Edge'], channel: 'msedge' },
+      name: 'Setup',
+      testDir: 'setup',
+    },
+    {
+      name: 'E2E Tests',
+      dependencies: ['Setup'],
+      use: {
+        storageState: '.auth/user.json',
+      },
     },
   ],
 });
