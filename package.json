@@ -8,7 +8,8 @@
     "test-ui-mode": "npx playwright test --ui",
     "test-with-trace": "npx playwright test --trace on",
     "show-trace": "npx playwright show-trace results/trace.zip",
-    "start-codegenerator": "npx playwright codegen https://playwright.dev/"
+    "auth-test": "npx playwright test --project=Setup",
+    "start-codegenerator": "npm run auth-test && npx playwright codegen --load-storage=.auth/user.json https://playwright.dev/"
   },
   "devDependencies": {
     "@playwright/test": "1.46.1",
