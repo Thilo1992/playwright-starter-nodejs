@@ -35,6 +35,7 @@ If you want use Java for writing Playwright tests, please checkout the following
   `npx playwright codegen <your_url>`
 - Call **Actions** on the Locators (https://playwright.dev/docs/input)
 - Do **Assertions** on the Locators (https://playwright.dev/docs/test-assertions)
+- Run your tests in UI Mode with `npx playwright test --ui` (https://playwright.dev/docs/test-ui-mode)
 
 ### 3. Use page object models
 
